@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mirs.mirsfang.tinkerdemo.app;
+package com.mirs.mirsfang.tinkerdemo.tinker.app;
 
 /**
  * Created by zhangshaowen on 16/6/30.

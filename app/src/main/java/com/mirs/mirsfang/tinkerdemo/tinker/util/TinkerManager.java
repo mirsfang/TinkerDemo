@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.mirs.mirsfang.tinkerdemo.util;
+package com.mirs.mirsfang.tinkerdemo.tinker.util;
 
-import com.mirs.mirsfang.tinkerdemo.crash.SampleUncaughtExceptionHandler;
-import com.mirs.mirsfang.tinkerdemo.reporter.SampleLoadReporter;
-import com.mirs.mirsfang.tinkerdemo.reporter.SamplePatchListener;
-import com.mirs.mirsfang.tinkerdemo.reporter.SamplePatchReporter;
-import com.mirs.mirsfang.tinkerdemo.service.SampleResultService;
+import com.mirs.mirsfang.tinkerdemo.tinker.crash.SampleUncaughtExceptionHandler;
+import com.mirs.mirsfang.tinkerdemo.tinker.reporter.SampleLoadReporter;
+import com.mirs.mirsfang.tinkerdemo.tinker.reporter.SamplePatchListener;
+import com.mirs.mirsfang.tinkerdemo.tinker.reporter.SamplePatchReporter;
+import com.mirs.mirsfang.tinkerdemo.tinker.service.SampleResultService;
 import com.tencent.tinker.lib.listener.PatchListener;
 import com.tencent.tinker.lib.patch.AbstractPatch;
 import com.tencent.tinker.lib.patch.RepairPatch;

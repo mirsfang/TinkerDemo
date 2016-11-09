@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mirs.mirsfang.tinkerdemo.reporter;
+package com.mirs.mirsfang.tinkerdemo.tinker.reporter;
 
 import android.content.Context;
 import android.os.Handler;
@@ -22,8 +22,8 @@ import android.os.Looper;
 import android.os.MessageQueue;
 import android.widget.Toast;
 
-import com.mirs.mirsfang.tinkerdemo.util.UpgradePatchRetry;
-import com.mirs.mirsfang.tinkerdemo.util.Utils;
+import com.mirs.mirsfang.tinkerdemo.tinker.util.UpgradePatchRetry;
+import com.mirs.mirsfang.tinkerdemo.tinker.util.Utils;
 import com.tencent.tinker.lib.reporter.DefaultLoadReporter;
 import com.tencent.tinker.lib.tinker.TinkerInstaller;
 import com.tencent.tinker.loader.shareutil.ShareConstants;

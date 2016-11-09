@@ -14,15 +14,25 @@
  * limitations under the License.
  */
 
-package com.mirs.mirsfang.tinkerdemo.util;
+package com.mirs.mirsfang.tinkerdemo.tinker.app;
 
-import android.app.Application;
-import android.content.Context;
+
+import com.mirs.mirsfang.tinkerdemo.BuildConfig;
 
 /**
- * Created by zhangshaowen on 16/8/9.
+ * Created by zhangshaowen on 16/6/30.
+ * we use BuildInfo instead of {@link BuildInfo} to make less change
  */
-public class SampleApplicationContext {
-    public static Application application = null;
-    public static Context context = null;
+public class BuildInfo {
+    /**
+     * they are not final, so they won't change with the BuildConfig values!
+     */
+    public static boolean DEBUG        = BuildConfig.DEBUG;
+    public static String VERSION_NAME = BuildConfig.VERSION_NAME;
+    public static int     VERSION_CODE = BuildConfig.VERSION_CODE;
+
+    public static String MESSAGE       = BuildConfig.MESSAGE;
+    public static String CLIENTVERSION = BuildConfig.CLIENTVERSION;
+    public static String PLATFORM      = BuildConfig.PLATFORM;
+
 }

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.mirs.mirsfang.tinkerdemo.reporter;
+package com.mirs.mirsfang.tinkerdemo.tinker.reporter;
 
 import android.content.Context;
 import android.content.Intent;
 
-import com.mirs.mirsfang.tinkerdemo.util.UpgradePatchRetry;
+import com.mirs.mirsfang.tinkerdemo.tinker.util.UpgradePatchRetry;
 import com.tencent.tinker.lib.reporter.DefaultPatchReporter;
 import com.tencent.tinker.loader.shareutil.SharePatchInfo;
 

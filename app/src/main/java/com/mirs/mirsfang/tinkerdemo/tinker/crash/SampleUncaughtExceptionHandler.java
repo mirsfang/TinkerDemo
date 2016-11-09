@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.mirs.mirsfang.tinkerdemo.crash;
+package com.mirs.mirsfang.tinkerdemo.tinker.crash;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.SystemClock;
 import android.widget.Toast;
 
-import com.mirs.mirsfang.tinkerdemo.reporter.SampleTinkerReport;
-import com.mirs.mirsfang.tinkerdemo.util.TinkerManager;
-import com.mirs.mirsfang.tinkerdemo.util.Utils;
+import com.mirs.mirsfang.tinkerdemo.tinker.reporter.SampleTinkerReport;
+import com.mirs.mirsfang.tinkerdemo.tinker.util.TinkerManager;
+import com.mirs.mirsfang.tinkerdemo.tinker.util.Utils;
 import com.tencent.tinker.lib.tinker.TinkerApplicationHelper;
 import com.tencent.tinker.lib.util.TinkerLog;
 import com.tencent.tinker.loader.app.ApplicationLike;

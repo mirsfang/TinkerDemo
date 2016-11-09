@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mirs.mirsfang.tinkerdemo.Log;
+package com.mirs.mirsfang.tinkerdemo.tinker.Log;
 
 import android.util.Log;
 

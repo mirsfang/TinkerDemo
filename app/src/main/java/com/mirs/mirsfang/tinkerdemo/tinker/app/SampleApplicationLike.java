@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mirs.mirsfang.tinkerdemo.app;
+package com.mirs.mirsfang.tinkerdemo.tinker.app;
 
 import android.annotation.TargetApi;
 import android.app.Application;
@@ -25,9 +25,9 @@ import android.content.res.Resources;
 import android.os.Build;
 import android.support.multidex.MultiDex;
 
-import com.mirs.mirsfang.tinkerdemo.Log.MyLogImp;
-import com.mirs.mirsfang.tinkerdemo.util.SampleApplicationContext;
-import com.mirs.mirsfang.tinkerdemo.util.TinkerManager;
+import com.mirs.mirsfang.tinkerdemo.tinker.Log.MyLogImp;
+import com.mirs.mirsfang.tinkerdemo.tinker.util.SampleApplicationContext;
+import com.mirs.mirsfang.tinkerdemo.tinker.util.TinkerManager;
 import com.tencent.tinker.anno.DefaultLifeCycle;
 import com.tencent.tinker.lib.tinker.TinkerInstaller;
 import com.tencent.tinker.loader.app.ApplicationLifeCycle;
@@ -56,7 +56,7 @@ import com.tencent.tinker.loader.shareutil.ShareConstants;
  * Created by zhangshaowen on 16/3/17.
  */
 @SuppressWarnings("unused")
-@DefaultLifeCycle(application = "com.mirs.mirsfang.tinkerdemo.app.SampleApplication",
+@DefaultLifeCycle(application = "com.mirs.mirsfang.tinkerdemo.tinker.app.SampleApplication",
                   flags = ShareConstants.TINKER_ENABLE_ALL,
                   loadVerifyFlag = false)
 public class SampleApplicationLike extends DefaultApplicationLike {

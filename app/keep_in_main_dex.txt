@@ -5,7 +5,7 @@
     *;
 }
 
--keep class com.mirs.mirsfang.tinkerdemo.app.SampleApplication {
+-keep class com.mirs.mirsfang.tinkerdemo.tinker.app.SampleApplication {
     *;
 }
 

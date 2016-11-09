@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.mirs.mirsfang.tinkerdemo.util.Utils;
+import com.mirs.mirsfang.tinkerdemo.tinker.util.Utils;
 import com.tencent.tinker.lib.tinker.TinkerInstaller;
 
 public class MainActivity extends AppCompatActivity {
@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
     }
 
     @Override

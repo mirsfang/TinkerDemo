@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mirs.mirsfang.tinkerdemo.service;
+package com.mirs.mirsfang.tinkerdemo.tinker.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -24,7 +24,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.widget.Toast;
 
-import com.mirs.mirsfang.tinkerdemo.util.Utils;
+import com.mirs.mirsfang.tinkerdemo.tinker.util.Utils;
 import com.tencent.tinker.lib.service.DefaultTinkerResultService;
 import com.tencent.tinker.lib.service.PatchResult;
 import com.tencent.tinker.lib.tinker.Tinker;

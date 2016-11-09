@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.mirs.mirsfang.tinkerdemo.reporter;
+package com.mirs.mirsfang.tinkerdemo.tinker.reporter;
 
-import com.mirs.mirsfang.tinkerdemo.util.Utils;
+import com.mirs.mirsfang.tinkerdemo.tinker.util.Utils;
 import com.tencent.tinker.lib.util.TinkerLog;
 import com.tencent.tinker.loader.shareutil.ShareConstants;
 import com.tencent.tinker.loader.shareutil.ShareTinkerInternals;

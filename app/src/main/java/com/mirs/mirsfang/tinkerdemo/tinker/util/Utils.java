@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mirs.mirsfang.tinkerdemo.util;
+package com.mirs.mirsfang.tinkerdemo.tinker.util;
 
 import android.os.Environment;
 import android.os.StatFs;

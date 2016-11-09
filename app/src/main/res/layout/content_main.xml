@@ -16,5 +16,5 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Tinker 替换成功 再次替换!" />
+        android:text="Hello Tinker 修复成功!" />
 </RelativeLayout>
